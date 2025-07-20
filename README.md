@@ -21,13 +21,3 @@ python password_generator.py
 ## 🛠 Requirements
 
 No external libraries needed — just standard Python.
-
-## 📸 Screenshot
-
-_Add a screenshot of the app here if you want_
-
-## 💡 Ideas for future improvements
-
-- Let user choose password length
-- Add copy to clipboard
-- Add dark mode
