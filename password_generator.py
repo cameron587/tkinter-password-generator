@@ -4,18 +4,26 @@ import random
 
 window = tk.Tk()
 window.title("Password Generator")
-window.geometry("350x225")
+window.geometry("350x250")
 
 password_display = tk.Entry(window, font=("Arial", 20), justify="center")
 password_display.pack(pady=10, ipadx=10, ipady=10)
 
-length_slider = tk.Scale(window, from_=4, to=32, orient='horizontal',
-length=300, sliderrelief='flat', troughcolor='darkgrey')
+length_label = tk.Label(window, text="Password Length: 18", font=("Arial", 12))
+length_label.pack()
 
+length_slider = tk.Scale(
+    window,
+    from_=4,
+    to=32,
+    orient='horizontal',
+    length=300,
+    sliderrelief='flat',
+    troughcolor='darkgrey'
+)
 length_slider.set(18)
 length_slider.pack()
 
-length_label = "0"
 def update_label(value):
     length_label.config(text=f"Password Length: {value}")
 
