@@ -1,23 +1,79 @@
-# Password Generator 🔐
+🔐 Password Generator
 
-A simple Python GUI app that generates strong random passwords using letters, numbers, and symbols.
+A simple and stylish password generator built with Python and Tkinter. Easily generate strong, random passwords of custom length and copy them with a click.
 
-## 📦 Features
 
-- Generates 18-character passwords
-- Uses uppercase, lowercase, numbers, and punctuation
-- Built with Tkinter
-- Clean and minimal GUI
+---
 
-## 🚀 How to Run
+🖼️ Features
 
-1. Make sure you have Python installed
-2. Run the script:
+Generate random passwords using:
 
-```bash
+Letters (uppercase and lowercase)
+
+Numbers
+
+Symbols
+
+
+Adjustable password length (4 to 32 characters) via slider
+
+One-click "Copy to Clipboard"
+
+Real-time password length display
+
+
+
+---
+
+📸 Preview
+
+> Optional: Add a screenshot here if you want
+Just take a screenshot of your app and upload it as screenshot.png, then add:
+![Screenshot](screenshot.png)
+
+
+
+
+---
+
+🚀 How to Run
+
+1. Make sure you have Python 3 installed.
+
+
+2. Save the script as password_generator.py.
+
+
+3. Run it using:
+
+
+
 python password_generator.py
-```
 
-## 🛠 Requirements
 
-No external libraries needed — just standard Python.
+---
+
+📁 File Structure
+
+password-generator/
+├── password_generator.py
+└── README.md
+
+
+---
+
+🛠️ Requirements
+
+Python 3.x
+
+Tkinter (comes built-in with most Python installs)
+
+
+
+---
+
+✅ Example Output
+
+Password Length: 18
+Generated Password: jD3$%z!oK7a@2LxV#M
